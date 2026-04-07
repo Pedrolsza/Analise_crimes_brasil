@@ -9,19 +9,18 @@
 
 ## 🎯 Problema
 
-Observa-se um possível aumento nos relatos de crimes contra vulneráveis no Brasil, como:
+Observa-se um possível aumento nos relatos de crimes contra vulneráveis no Brasil, como sequestro e abuso infantil, ao longo dos anos.
 
-- Sequestro  
-- Abuso infantil  
-- Exploração infantil  
+Levanta-se a hipótese de que esse aumento esteja relacionado a fatores socioeconômicos, especialmente:
 
-**Hipótese:** esse aumento pode estar relacionado a fatores socioeconômicos, especialmente renda per capita e desigualdade social.
+- Renda per capita  
+- Desigualdade social  
 
 ---
 
 ## 🎯 Objetivo Geral
 
-Analisar a relação entre fatores socioeconômicos e a ocorrência de crimes contra vulneráveis no Brasil.
+Analisar a relação entre fatores socioeconômicos e a incidência de crimes contra vulneráveis no Brasil, com foco na correlação entre renda per capita e a ocorrência desses crimes.
 
 ---
 
@@ -29,87 +28,137 @@ Analisar a relação entre fatores socioeconômicos e a ocorrência de crimes co
 
 - 📈 Identificar padrões temporais dos crimes  
 - 🌎 Avaliar a distribuição geográfica  
-- 🔗 Analisar correlação entre renda e criminalidade  
+- 🔗 Analisar a correlação entre renda e incidência de crimes  
 - ⚠️ Identificar regiões de maior risco  
-- 🛡️ Propor medidas de mitigação  
+- 🛡️ Propor medidas de mitigação baseadas em dados  
 
 ---
 
 ## 🧠 Hipótese
 
-Regiões com menor renda per capita apresentam maior incidência de crimes contra vulneráveis devido à vulnerabilidade social e desigualdade econômica.
+Regiões com menor renda per capita apresentam maior incidência de crimes contra vulneráveis devido à:
+
+- Maior vulnerabilidade social  
+- Desigualdade econômica  
+- Menor acesso a políticas públicas de proteção  
 
 ---
 
 ## 🌎 Escopo do Estudo
 
-| Dimensão      | Detalhes                     |
-|--------------|-----------------------------|
-| Geográfico   | Todos os estados do Brasil  |
-| Temporal     | 2016 – 2026                 |
-| Granularidade| Análise anual por estado    |
+| Dimensão       | Detalhes                    |
+|----------------|----------------------------|
+| Geográfico     | Todos os estados do Brasil |
+| Temporal       | 2016 – 2026                |
+| Granularidade  | Análise anual por estado   |
 
 ---
 
 ## 🗂️ Variáveis de Interesse
 
-### 🔴 Crimes
+### 🔴 Crimes Analisados
 - Sequestro  
 - Estupro de vulnerável  
 - Exploração infantil  
 
-### 🟢 Socioeconômicas
+> Conforme classificação das bases oficiais de segurança pública
+
+---
+
+### 🟢 Variáveis Socioeconômicas
 - Renda per capita  
-- Índice de Gini  
+- Índice de Gini (desigualdade)  
 - Taxa de desemprego  
-- População abaixo da linha da pobreza  
+- Percentual da população abaixo da linha da pobreza  
 - Densidade demográfica  
 
-### 🔵 Educacionais
-- Indicador INSE  
-- Dados do INEP  
+---
+
+### 🔵 Variáveis Educacionais
+- Indicador de nível socioeconômico (INSE)  
+- Dados educacionais do INEP  
 
 ---
 
 ## 🗃️ Fontes de Dados
 
-| Tipo              | Fonte                              | Dados |
-|------------------|-----------------------------------|------|
-| Segurança Pública| dados.gov.br, SINESP, Anuário     | Ocorrências por estado |
-| Socioeconômico   | IBGE, Atlas da Vulnerabilidade    | Indicadores sociais |
-| Educacional      | INEP                              | INSE |
-| Complementar     | Base dos Dados, Our World in Data | Diversos |
+### 📍 Segurança Pública
+- dados.gov.br  
+- SINESP  
+- Anuário Brasileiro de Segurança Pública  
+
+**Dados:**
+- Ocorrências criminais por estado  
+- Relatórios de segurança  
+
+---
+
+### 📍 Socioeconômico
+- IBGE  
+- Síntese de Indicadores Sociais  
+- Atlas de Vulnerabilidade Social  
+
+---
+
+### 📍 Educacional
+- INEP (Indicador INSE)  
+
+---
+
+### 📍 Complementares
+- Base dos Dados  
+- Our World in Data *(uso condicionado à compatibilidade)*  
 
 ---
 
 ## 🔗 Integração dos Dados
 
-- Chaves: **Estado + Ano**  
-- Padronização por códigos do IBGE  
-- Normalização de nomes de estados  
+- Chaves principais:
+  - **Estado**
+  - **Ano**
+
+- Ajustes realizados:
+  - Padronização de nomes de estados  
+  - Uso de códigos oficiais (IBGE)  
 
 ---
 
 ## 🔧 Tratamento dos Dados
 
-- Remoção de valores nulos/inconsistentes  
-- Padronização de categorias  
+- Remoção de valores nulos ou inconsistentes  
+- Padronização de variáveis categóricas  
 - Conversão de datas  
 - Filtragem dos crimes relevantes  
-- Criação de métricas (ex: taxa por 100 mil habitantes)  
-- Normalização dos dados  
+- Criação de métricas derivadas:
+  - Taxa por 100 mil habitantes  
+- Normalização para análise comparativa  
 
 ---
 
 ## 📊 KPIs
 
-- Total de sequestros  
-- Total de crimes contra menores  
+### 📌 Indicadores Principais
+- Total de sequestros no período  
+- Total de crimes envolvendo menores  
 - Variação percentual anual  
 - Média anual de ocorrências  
 - Estados com maior incidência  
 - Taxa por 100 mil habitantes  
-- Correlação com indicadores socioeconômicos  
+
+### 📌 Indicadores Socioeconômicos
+- Renda média das regiões  
+- Taxa de desemprego  
+- Índice de Gini  
+- Percentual de população em pobreza  
+- Densidade demográfica  
+
+### 📌 Indicadores Avançados
+- Proporção de crimes em áreas de alta vs baixa renda  
+- Sazonalidade anual  
+- Faixa etária das vítimas *(se disponível)*  
+- Gênero das vítimas *(se disponível)*  
+- Correlação (Pearson) entre renda e crimes  
+- Cluster de risco (alto, médio, baixo)  
 
 ---
 
@@ -120,38 +169,46 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 - Identificação de outliers  
 - Análise temporal  
 
+---
+
 ### 📊 Correlação Estatística
-- Correlação de **Pearson**  
+- Correlação de **Pearson** entre:
+  - Renda per capita  
+  - Índice de crimes  
+
+---
 
 ### 🤖 Clusterização
 - Algoritmo: **K-Means**  
-- Objetivo: identificar grupos de risco  
+- Objetivo: identificar grupos de risco entre estados  
+
+---
 
 ### 📅 Análise Temporal
-- Evolução ao longo dos anos  
+- Evolução dos crimes ao longo dos anos  
 - Identificação de tendências  
 
 ---
 
-## 🛠️ Ferramentas
+## 🛠️ Tecnologias Utilizadas
 
-- **Python (Google Colab)**
-  - Pandas  
-  - NumPy  
-  - Matplotlib  
-  - Seaborn  
-  - Scikit-learn  
+### 💻 Análise de Dados
+- Python (Google Colab)  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Scikit-learn  
 
-- **Power BI**
-  - Dashboards interativos  
+### 📊 Visualização
+- Power BI  
 
 ---
 
 ## 📤 Entregáveis
 
 - 📁 Dataset tratado e consolidado  
-- 📓 Notebook analítico  
-- 📊 Dashboard no Power BI  
+- 📓 Notebook analítico em Python  
+- 📊 Dashboard interativo no Power BI  
 - 📄 Relatório final com insights  
 
 ---
@@ -159,25 +216,31 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 ## ⚠️ Limitações
 
 - Subnotificação de crimes  
-- Diferença na qualidade dos dados  
-- Falta de granularidade  
+- Diferença na qualidade dos dados entre estados  
+- Falta de granularidade em algumas bases  
 - Dados indisponíveis em alguns anos  
 - Diferença de classificação entre fontes  
-- ⚠️ Correlação ≠ causalidade  
+- ⚠️ Correlação não implica causalidade  
 
 ---
 
 ## 🧩 Próximos Passos
 
 - Definir bases finais  
-- Validar compatibilidade dos dados  
-- Coletar e tratar dados  
+- Validar compatibilidade dos datasets  
+- Realizar coleta e limpeza dos dados  
 - Iniciar análise exploratória  
 
 ---
 
 ## 🎯 Conclusão
 
-Este projeto aplica técnicas de **Ciência de Dados** para analisar crimes contra vulneráveis no Brasil, com o objetivo de gerar **insights relevantes para políticas públicas** e redução de riscos sociais.
+Este projeto aplica técnicas de **Ciência de Dados** para compreender a relação entre fatores socioeconômicos e crimes contra vulneráveis no Brasil.
+
+O objetivo é gerar **insights baseados em dados reais** que possam apoiar:
+
+- Formulação de políticas públicas  
+- Identificação de regiões de risco  
+- Estratégias de mitigação social  
 
 ---
