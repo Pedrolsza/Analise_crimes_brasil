@@ -213,6 +213,24 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 
 ---
 
+## 📁 Estrutura do Projeto
+
+```
+dados-de-crimes/
+├── data/
+│   ├── raw/           # Dados brutos coletados das fontes
+│   └── processed/     # Dados tratados e prontos para análise
+│
+├── notebooks/
+│   └── analise_inicial.ipynb   # Análise exploratória inicial (EDA)
+│
+├── src/               # Scripts auxiliares e funções do projeto
+│
+├── .gitignore         # Arquivos ignorados pelo Git
+├── README.md          # Documentação do projeto
+```
+
+
 ## ⚠️ Limitações
 
 - Subnotificação de crimes  
@@ -235,12 +253,12 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 
 ## 🎯 Conclusão
 
-Este projeto aplica técnicas de **Ciência de Dados** para compreender a relação entre fatores socioeconômicos e crimes contra vulneráveis no Brasil.
+Este projeto aplica técnicas de **Ciência de Dados** para analisar a relação entre fatores socioeconômicos e crimes contra vulneráveis no Brasil.
 
-O objetivo é gerar **insights baseados em dados reais** que possam apoiar:
+Através de análise estatística, exploração de dados e técnicas de clusterização, busca-se gerar **insights acionáveis** que possam contribuir para:
 
 - Formulação de políticas públicas  
-- Identificação de regiões de risco  
-- Estratégias de mitigação social  
+- Identificação de padrões de risco  
+- Apoio à tomada de decisão baseada em dados  
 
 ---
