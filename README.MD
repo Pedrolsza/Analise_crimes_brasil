@@ -18,14 +18,14 @@ Hipótese: esse aumento pode estar relacionado a fatores socioeconômicos, espec
 Analisar a relação entre fatores socioeconômicos e crimes contra vulneráveis, com foco na correlação entre renda per capita e ocorrência de crimes.
 
 🎯 Objetivos Específicos
-Identificar padrões temporais
-Avaliar distribuição geográfica
+Identificar padrões temporais na ocorrência de crimes
+Avaliar a distribuição geográfica
 Analisar correlação renda x crimes
 Identificar regiões de maior risco
 Propor medidas de mitigação
 🧠 Hipótese Inicial
 
-Regiões com menor renda per capita apresentam maior incidência de crimes contra vulneráveis devido a vulnerabilidade social e desigualdade econômica.
+Regiões com menor renda per capita apresentam maior incidência de crimes contra vulneráveis devido à vulnerabilidade social e desigualdade econômica.
 
 🌎 Recorte do Estudo
 Dimensão	Detalhes
@@ -39,7 +39,7 @@ Estupro de vulnerável
 Exploração infantil
 🟢 Variáveis Socioeconômicas
 Renda per capita
-Índice de Gini
+Índice de Gini (desigualdade)
 Taxa de desemprego
 Percentual da população abaixo da linha da pobreza
 Densidade demográfica
@@ -56,7 +56,7 @@ Educacional	INEP
 	Indicador INSE
 Complementares	Base dos Dados, Our World in Data	Diversos
 🔗 Integração dos Dados
-Chaves: Estado e Ano
+Chaves de integração: Estado e Ano
 Padronização de nomes de estados ou uso de códigos oficiais (IBGE)
 🔧 Tratamento dos Dados
 Remoção de valores nulos ou inconsistentes
@@ -74,8 +74,8 @@ Estados com maior incidência
 Taxa de crimes por 100 mil habitantes
 Indicadores socioeconômicos correlacionados (renda, Gini, pobreza, desemprego)
 📈 Metodologia Analítica
-<details> <summary>🔍 Análise Exploratória (EDA)</summary> - Distribuição dos dados - Identificação de outliers - Análise temporal </details> <details> <summary>📊 Correlação Estatística</summary> - Correlação de Pearson entre **renda per capita** e **crimes** </details> <details> <summary>🤖 Clusterização</summary> - Algoritmo: K-Means - Objetivo: identificar grupos de risco entre estados </details> <details> <summary>📅 Análise Temporal</summary> - Evolução dos crimes ao longo dos anos - Identificação de tendências </details>
-📊 Ferramentas Utilizadas
+<details> <summary>🔍 Análise Exploratória (EDA)</summary> - Distribuição dos dados - Identificação de outliers - Análise temporal </details> <details> <summary>📊 Correlação Estatística</summary> - Correlação de **Pearson** entre renda per capita e crimes </details> <details> <summary>🤖 Clusterização</summary> - Algoritmo: **K-Means** - Objetivo: identificar grupos de risco entre estados </details> <details> <summary>📅 Análise Temporal</summary> - Evolução dos crimes ao longo dos anos - Identificação de tendências </details>
+🛠️ Ferramentas Utilizadas
 Python (Google Colab): Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 Power BI: dashboards interativos
 📤 Saída do Projeto
