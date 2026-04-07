@@ -6,9 +6,7 @@
 
 
 👥 Membros do Grupo
-Sanderson Machado
-Pedro Abreu
-Arthur Cavalcante
+Sanderson Machado, Pedro Abreu e Arthur Cavalcante
 
 🎯 Problema Identificado
 
