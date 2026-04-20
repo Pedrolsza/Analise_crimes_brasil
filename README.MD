@@ -47,10 +47,10 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 ## 🌎 Escopo do Estudo
 
 | Dimensão       | Detalhes                    |
-|----------------|----------------------------|
-| Geográfico     | Todos os estados do Brasil |
-| Temporal       | 2016 – 2026                |
-| Granularidade  | Análise anual por estado   |
+|----------------|---------------------------- |
+| Geográfico     | Todos os estados do Brasil  |
+| Temporal       | 2016 – Mais recente possível|
+| Granularidade  | Análise anual por estado    |
 
 ---
 
@@ -193,7 +193,7 @@ Regiões com menor renda per capita apresentam maior incidência de crimes contr
 ## 🛠️ Tecnologias Utilizadas
 
 ### 💻 Análise de Dados
-- Python (Google Colab)  
+- Python 
 - Pandas  
 - NumPy  
 - Matplotlib / Seaborn  

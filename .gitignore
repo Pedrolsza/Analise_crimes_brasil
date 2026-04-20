@@ -1,4 +1,73 @@
-venv/
+# ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
-*.csv
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Uncomment to also ignore notebook outputs on commit:
+# *.ipynb
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# Raw source data — never committed
 data/raw/
+
+# Large processed files (commit only small, essential processed outputs)
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Tabular data (raw CSVs/Excel) — processed CSVs may be committed selectively
+*.csv
+*.xlsx
+*.xls
+*.tsv
+
+# ── Power BI ──────────────────────────────────────────────────────────────────
+*.pbix
+*.pbit
+
+# ── OS & editor artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+pipeline_run.log
+*.bak
+tmp/
+temp/
