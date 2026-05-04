@@ -49,6 +49,9 @@ data/raw/
 *.pbix
 *.pbit
 
+# ── Claude Code ───────────────────────────────────────────────────────────────
+CLAUDE.md
+
 # ── OS & editor artifacts ─────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
