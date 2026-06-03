@@ -1,0 +1,379 @@
+ano,sigla_uf,sigla_uf_nome,gini
+2012,AC,Acre,0.566
+2012,AL,Alagoas,0.503
+2012,AM,Amazonas,0.590
+2012,AP,Amapá,0.528
+2012,BA,Bahia,0.562
+2012,CE,Ceará,0.546
+2012,DF,Distrito Federal,0.602
+2012,ES,Espírito Santo,0.489
+2012,GO,Goiás,0.475
+2012,MA,Maranhão,0.498
+2012,MG,Minas Gerais,0.500
+2012,MS,Mato Grosso do Sul,0.476
+2012,MT,Mato Grosso,0.488
+2012,PA,Pará,0.534
+2012,PB,Paraíba,0.517
+2012,PE,Pernambuco,0.574
+2012,PI,Piauí,0.496
+2012,PR,Paraná,0.483
+2012,RJ,Rio de Janeiro,0.529
+2012,RN,Rio Grande do Norte,0.508
+2012,RO,Rondônia,0.488
+2012,RR,Roraima,0.549
+2012,RS,Rio Grande do Sul,0.495
+2012,SC,Santa Catarina,0.436
+2012,SE,Sergipe,0.569
+2012,SP,São Paulo,0.511
+2012,TO,Tocantins,0.508
+2013,AC,Acre,0.554
+2013,AL,Alagoas,0.510
+2013,AM,Amazonas,0.582
+2013,AP,Amapá,0.513
+2013,BA,Bahia,0.535
+2013,CE,Ceará,0.537
+2013,DF,Distrito Federal,0.580
+2013,ES,Espírito Santo,0.498
+2013,GO,Goiás,0.466
+2013,MA,Maranhão,0.493
+2013,MG,Minas Gerais,0.492
+2013,MS,Mato Grosso do Sul,0.472
+2013,MT,Mato Grosso,0.456
+2013,PA,Pará,0.532
+2013,PB,Paraíba,0.514
+2013,PE,Pernambuco,0.567
+2013,PI,Piauí,0.535
+2013,PR,Paraná,0.473
+2013,RJ,Rio de Janeiro,0.518
+2013,RN,Rio Grande do Norte,0.505
+2013,RO,Rondônia,0.475
+2013,RR,Roraima,0.556
+2013,RS,Rio Grande do Sul,0.477
+2013,SC,Santa Catarina,0.429
+2013,SE,Sergipe,0.572
+2013,SP,São Paulo,0.510
+2013,TO,Tocantins,0.515
+2014,AC,Acre,0.529
+2014,AL,Alagoas,0.527
+2014,AM,Amazonas,0.562
+2014,AP,Amapá,0.523
+2014,BA,Bahia,0.528
+2014,CE,Ceará,0.522
+2014,DF,Distrito Federal,0.574
+2014,ES,Espírito Santo,0.499
+2014,GO,Goiás,0.458
+2014,MA,Maranhão,0.475
+2014,MG,Minas Gerais,0.490
+2014,MS,Mato Grosso do Sul,0.473
+2014,MT,Mato Grosso,0.460
+2014,PA,Pará,0.508
+2014,PB,Paraíba,0.525
+2014,PE,Pernambuco,0.566
+2014,PI,Piauí,0.516
+2014,PR,Paraná,0.464
+2014,RJ,Rio de Janeiro,0.512
+2014,RN,Rio Grande do Norte,0.509
+2014,RO,Rondônia,0.443
+2014,RR,Roraima,0.523
+2014,RS,Rio Grande do Sul,0.479
+2014,SC,Santa Catarina,0.408
+2014,SE,Sergipe,0.542
+2014,SP,São Paulo,0.508
+2014,TO,Tocantins,0.498
+2015,AC,Acre,0.550
+2015,AL,Alagoas,0.525
+2015,AM,Amazonas,0.553
+2015,AP,Amapá,0.547
+2015,BA,Bahia,0.521
+2015,CE,Ceará,0.528
+2015,DF,Distrito Federal,0.581
+2015,ES,Espírito Santo,0.504
+2015,GO,Goiás,0.457
+2015,MA,Maranhão,0.495
+2015,MG,Minas Gerais,0.485
+2015,MS,Mato Grosso do Sul,0.449
+2015,MT,Mato Grosso,0.444
+2015,PA,Pará,0.515
+2015,PB,Paraíba,0.533
+2015,PE,Pernambuco,0.567
+2015,PI,Piauí,0.520
+2015,PR,Paraná,0.453
+2015,RJ,Rio de Janeiro,0.504
+2015,RN,Rio Grande do Norte,0.518
+2015,RO,Rondônia,0.462
+2015,RR,Roraima,0.538
+2015,RS,Rio Grande do Sul,0.467
+2015,SC,Santa Catarina,0.415
+2015,SE,Sergipe,0.538
+2015,SP,São Paulo,0.513
+2015,TO,Tocantins,0.506
+2016,AC,Acre,0.564
+2016,AL,Alagoas,0.523
+2016,AM,Amazonas,0.559
+2016,AP,Amapá,0.554
+2016,BA,Bahia,0.537
+2016,CE,Ceará,0.543
+2016,DF,Distrito Federal,0.579
+2016,ES,Espírito Santo,0.509
+2016,GO,Goiás,0.467
+2016,MA,Maranhão,0.517
+2016,MG,Minas Gerais,0.491
+2016,MS,Mato Grosso do Sul,0.471
+2016,MT,Mato Grosso,0.454
+2016,PA,Pará,0.510
+2016,PB,Paraíba,0.528
+2016,PE,Pernambuco,0.567
+2016,PI,Piauí,0.528
+2016,PR,Paraná,0.476
+2016,RJ,Rio de Janeiro,0.526
+2016,RN,Rio Grande do Norte,0.542
+2016,RO,Rondônia,0.465
+2016,RR,Roraima,0.538
+2016,RS,Rio Grande do Sul,0.473
+2016,SC,Santa Catarina,0.422
+2016,SE,Sergipe,0.566
+2016,SP,São Paulo,0.525
+2016,TO,Tocantins,0.490
+2017,AC,Acre,0.547
+2017,AL,Alagoas,0.525
+2017,AM,Amazonas,0.592
+2017,AP,Amapá,0.589
+2017,BA,Bahia,0.586
+2017,CE,Ceará,0.547
+2017,DF,Distrito Federal,0.594
+2017,ES,Espírito Santo,0.504
+2017,GO,Goiás,0.477
+2017,MA,Maranhão,0.526
+2017,MG,Minas Gerais,0.494
+2017,MS,Mato Grosso do Sul,0.465
+2017,MT,Mato Grosso,0.464
+2017,PA,Pará,0.506
+2017,PB,Paraíba,0.549
+2017,PE,Pernambuco,0.551
+2017,PI,Piauí,0.530
+2017,PR,Paraná,0.480
+2017,RJ,Rio de Janeiro,0.519
+2017,RN,Rio Grande do Norte,0.523
+2017,RO,Rondônia,0.447
+2017,RR,Roraima,0.526
+2017,RS,Rio Grande do Sul,0.481
+2017,SC,Santa Catarina,0.414
+2017,SE,Sergipe,0.550
+2017,SP,São Paulo,0.526
+2017,TO,Tocantins,0.496
+2018,AC,Acre,0.559
+2018,AL,Alagoas,0.550
+2018,AM,Amazonas,0.545
+2018,AP,Amapá,0.548
+2018,BA,Bahia,0.548
+2018,CE,Ceará,0.547
+2018,DF,Distrito Federal,0.571
+2018,ES,Espírito Santo,0.507
+2018,GO,Goiás,0.470
+2018,MA,Maranhão,0.527
+2018,MG,Minas Gerais,0.492
+2018,MS,Mato Grosso do Sul,0.491
+2018,MT,Mato Grosso,0.465
+2018,PA,Pará,0.561
+2018,PB,Paraíba,0.551
+2018,PE,Pernambuco,0.535
+2018,PI,Piauí,0.530
+2018,PR,Paraná,0.491
+2018,RJ,Rio de Janeiro,0.544
+2018,RN,Rio Grande do Norte,0.540
+2018,RO,Rondônia,0.497
+2018,RR,Roraima,0.567
+2018,RS,Rio Grande do Sul,0.486
+2018,SC,Santa Catarina,0.418
+2018,SE,Sergipe,0.576
+2018,SP,São Paulo,0.539
+2018,TO,Tocantins,0.530
+2019,AC,Acre,0.560
+2019,AL,Alagoas,0.525
+2019,AM,Amazonas,0.567
+2019,AP,Amapá,0.513
+2019,BA,Bahia,0.555
+2019,CE,Ceará,0.562
+2019,DF,Distrito Federal,0.554
+2019,ES,Espírito Santo,0.518
+2019,GO,Goiás,0.460
+2019,MA,Maranhão,0.531
+2019,MG,Minas Gerais,0.487
+2019,MS,Mato Grosso do Sul,0.484
+2019,MT,Mato Grosso,0.456
+2019,PA,Pará,0.528
+2019,PB,Paraíba,0.563
+2019,PE,Pernambuco,0.573
+2019,PI,Piauí,0.538
+2019,PR,Paraná,0.476
+2019,RJ,Rio de Janeiro,0.553
+2019,RN,Rio Grande do Norte,0.555
+2019,RO,Rondônia,0.472
+2019,RR,Roraima,0.580
+2019,RS,Rio Grande do Sul,0.481
+2019,SC,Santa Catarina,0.422
+2019,SE,Sergipe,0.580
+2019,SP,São Paulo,0.527
+2019,TO,Tocantins,0.531
+2020,AC,Acre,0.515
+2020,AL,Alagoas,0.509
+2020,AM,Amazonas,0.533
+2020,AP,Amapá,0.500
+2020,BA,Bahia,0.532
+2020,CE,Ceará,0.542
+2020,DF,Distrito Federal,0.549
+2020,ES,Espírito Santo,0.482
+2020,GO,Goiás,0.445
+2020,MA,Maranhão,0.482
+2020,MG,Minas Gerais,0.460
+2020,MS,Mato Grosso do Sul,0.470
+2020,MT,Mato Grosso,0.463
+2020,PA,Pará,0.479
+2020,PB,Paraíba,0.515
+2020,PE,Pernambuco,0.536
+2020,PI,Piauí,0.474
+2020,PR,Paraná,0.460
+2020,RJ,Rio de Janeiro,0.549
+2020,RN,Rio Grande do Norte,0.513
+2020,RO,Rondônia,0.439
+2020,RR,Roraima,0.540
+2020,RS,Rio Grande do Sul,0.475
+2020,SC,Santa Catarina,0.412
+2020,SE,Sergipe,0.522
+2020,SP,São Paulo,0.522
+2020,TO,Tocantins,0.486
+2021,AC,Acre,0.539
+2021,AL,Alagoas,0.526
+2021,AM,Amazonas,0.541
+2021,AP,Amapá,0.530
+2021,BA,Bahia,0.543
+2021,CE,Ceará,0.550
+2021,DF,Distrito Federal,0.567
+2021,ES,Espírito Santo,0.507
+2021,GO,Goiás,0.467
+2021,MA,Maranhão,0.529
+2021,MG,Minas Gerais,0.486
+2021,MS,Mato Grosso do Sul,0.497
+2021,MT,Mato Grosso,0.462
+2021,PA,Pará,0.528
+2021,PB,Paraíba,0.562
+2021,PE,Pernambuco,0.580
+2021,PI,Piauí,0.515
+2021,PR,Paraná,0.475
+2021,RJ,Rio de Janeiro,0.566
+2021,RN,Rio Grande do Norte,0.588
+2021,RO,Rondônia,0.458
+2021,RR,Roraima,0.597
+2021,RS,Rio Grande do Sul,0.467
+2021,SC,Santa Catarina,0.425
+2021,SE,Sergipe,0.566
+2021,SP,São Paulo,0.532
+2021,TO,Tocantins,0.515
+2022,AC,Acre,0.523
+2022,AL,Alagoas,0.498
+2022,AM,Amazonas,0.509
+2022,AP,Amapá,0.531
+2022,BA,Bahia,0.507
+2022,CE,Ceará,0.516
+2022,DF,Distrito Federal,0.536
+2022,ES,Espírito Santo,0.490
+2022,GO,Goiás,0.455
+2022,MA,Maranhão,0.490
+2022,MG,Minas Gerais,0.465
+2022,MS,Mato Grosso do Sul,0.479
+2022,MT,Mato Grosso,0.450
+2022,PA,Pará,0.506
+2022,PB,Paraíba,0.558
+2022,PE,Pernambuco,0.514
+2022,PI,Piauí,0.518
+2022,PR,Paraná,0.468
+2022,RJ,Rio de Janeiro,0.540
+2022,RN,Rio Grande do Norte,0.523
+2022,RO,Rondônia,0.446
+2022,RR,Roraima,0.548
+2022,RS,Rio Grande do Sul,0.466
+2022,SC,Santa Catarina,0.419
+2022,SE,Sergipe,0.526
+2022,SP,São Paulo,0.499
+2022,TO,Tocantins,0.507
+2023,AC,Acre,0.510
+2023,AL,Alagoas,0.486
+2023,AM,Amazonas,0.511
+2023,AP,Amapá,0.491
+2023,BA,Bahia,0.485
+2023,CE,Ceará,0.510
+2023,DF,Distrito Federal,0.542
+2023,ES,Espírito Santo,0.483
+2023,GO,Goiás,0.472
+2023,MA,Maranhão,0.491
+2023,MG,Minas Gerais,0.474
+2023,MS,Mato Grosso do Sul,0.476
+2023,MT,Mato Grosso,0.453
+2023,PA,Pará,0.499
+2023,PB,Paraíba,0.561
+2023,PE,Pernambuco,0.495
+2023,PI,Piauí,0.549
+2023,PR,Paraná,0.461
+2023,RJ,Rio de Janeiro,0.539
+2023,RN,Rio Grande do Norte,0.530
+2023,RO,Rondônia,0.454
+2023,RR,Roraima,0.521
+2023,RS,Rio Grande do Sul,0.465
+2023,SC,Santa Catarina,0.418
+2023,SE,Sergipe,0.503
+2023,SP,São Paulo,0.503
+2023,TO,Tocantins,0.478
+2024,AC,Acre,0.502
+2024,AL,Alagoas,0.516
+2024,AM,Amazonas,0.474
+2024,AP,Amapá,0.509
+2024,BA,Bahia,0.477
+2024,CE,Ceará,0.487
+2024,DF,Distrito Federal,0.547
+2024,ES,Espírito Santo,0.480
+2024,GO,Goiás,0.462
+2024,MA,Maranhão,0.487
+2024,MG,Minas Gerais,0.447
+2024,MS,Mato Grosso do Sul,0.454
+2024,MT,Mato Grosso,0.442
+2024,PA,Pará,0.490
+2024,PB,Paraíba,0.496
+2024,PE,Pernambuco,0.530
+2024,PI,Piauí,0.493
+2024,PR,Paraná,0.473
+2024,RJ,Rio de Janeiro,0.522
+2024,RN,Rio Grande do Norte,0.522
+2024,RO,Rondônia,0.442
+2024,RR,Roraima,0.530
+2024,RS,Rio Grande do Sul,0.458
+2024,SC,Santa Catarina,0.430
+2024,SE,Sergipe,0.498
+2024,SP,São Paulo,0.489
+2024,TO,Tocantins,0.477
+2025,AC,Acre,0.509
+2025,AL,Alagoas,0.512
+2025,AM,Amazonas,0.488
+2025,AP,Amapá,0.496
+2025,BA,Bahia,0.466
+2025,CE,Ceará,0.506
+2025,DF,Distrito Federal,0.570
+2025,ES,Espírito Santo,0.480
+2025,GO,Goiás,0.479
+2025,MA,Maranhão,0.491
+2025,MG,Minas Gerais,0.473
+2025,MS,Mato Grosso do Sul,0.457
+2025,MT,Mato Grosso,0.439
+2025,PA,Pará,0.492
+2025,PB,Paraíba,0.507
+2025,PE,Pernambuco,0.520
+2025,PI,Piauí,0.508
+2025,PR,Paraná,0.470
+2025,RJ,Rio de Janeiro,0.543
+2025,RN,Rio Grande do Norte,0.540
+2025,RO,Rondônia,0.458
+2025,RR,Roraima,0.506
+2025,RS,Rio Grande do Sul,0.468
+2025,SC,Santa Catarina,0.425
+2025,SE,Sergipe,0.532
+2025,SP,São Paulo,0.491
+2025,TO,Tocantins,0.472

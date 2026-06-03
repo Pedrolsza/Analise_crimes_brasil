@@ -1,0 +1,4 @@
+﻿cluster_id;perfil;ordem_risco
+0;Risco observado mais alto;1
+1;Risco observado mais baixo;2
+2;Padrao atipico (inconsistencia de notificacao);3

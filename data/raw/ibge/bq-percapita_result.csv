@@ -1,0 +1,61 @@
+﻿"Tabela 7395 - Rendimento médio mensal real domiciliar per capita"
+"Variável - Rendimento médio mensal real domiciliar per capita"
+"Nível";"Cód.";"Brasil, Grande Região e Unidade da Federação";"Ano"
+"Nível";"Cód.";"Brasil, Grande Região e Unidade da Federação";"2016";;"2017";;"2018";;"2019";;"2021";;"2022";;"2023";;"2024"
+"BR";"1";"Brasil";"1709";"Reais";"1768";"Reais";"1816";"Reais";"1849";"Reais";"1663";"Reais";"1878";"Reais";"1958";"Reais";"2068";"Reais"
+"GR";"1";"Norte";"1050";"Reais";"1136";"Reais";"1152";"Reais";"1154";"Reais";"1103";"Reais";"1304";"Reais";"1360";"Reais";"1427";"Reais"
+"GR";"2";"Nordeste";"1072";"Reais";"1123";"Reais";"1140";"Reais";"1157";"Reais";"1037";"Reais";"1175";"Reais";"1229";"Reais";"1340";"Reais"
+"GR";"3";"Sudeste";"2085";"Reais";"2127";"Reais";"2213";"Reais";"2268";"Reais";"2014";"Reais";"2244";"Reais";"2357";"Reais";"2456";"Reais"
+"GR";"4";"Sul";"2068";"Reais";"2152";"Reais";"2167";"Reais";"2224";"Reais";"2017";"Reais";"2244";"Reais";"2307";"Reais";"2500";"Reais"
+"GR";"5";"Centro-Oeste";"1957";"Reais";"2078";"Reais";"2121";"Reais";"2082";"Reais";"1914";"Reais";"2311";"Reais";"2357";"Reais";"2419";"Reais"
+"UF";"11";"Rondônia";"1272";"Reais";"1344";"Reais";"1431";"Reais";"1478";"Reais";"1378";"Reais";"1575";"Reais";"1575";"Reais";"1750";"Reais"
+"UF";"12";"Acre";"1110";"Reais";"1122";"Reais";"1202";"Reais";"1202";"Reais";"1157";"Reais";"1171";"Reais";"1135";"Reais";"1277";"Reais"
+"UF";"13";"Amazonas";"974";"Reais";"1167";"Reais";"1051";"Reais";"1053";"Reais";"948";"Reais";"1154";"Reais";"1233";"Reais";"1268";"Reais"
+"UF";"14";"Roraima";"1362";"Reais";"1446";"Reais";"1466";"Reais";"1348";"Reais";"1243";"Reais";"1449";"Reais";"1453";"Reais";"1630";"Reais"
+"UF";"15";"Pará";"960";"Reais";"1025";"Reais";"1084";"Reais";"1085";"Reais";"1061";"Reais";"1267";"Reais";"1330";"Reais";"1364";"Reais"
+"UF";"16";"Amapá";"1253";"Reais";"1158";"Reais";"1105";"Reais";"1132";"Reais";"1168";"Reais";"1314";"Reais";"1447";"Reais";"1482";"Reais"
+"UF";"17";"Tocantins";"1244";"Reais";"1329";"Reais";"1359";"Reais";"1339";"Reais";"1313";"Reais";"1598";"Reais";"1656";"Reais";"1795";"Reais"
+"UF";"21";"Maranhão";"782";"Reais";"857";"Reais";"848";"Reais";"857";"Reais";"789";"Reais";"995";"Reais";"1019";"Reais";"1103";"Reais"
+"UF";"22";"Piauí";"1061";"Reais";"1042";"Reais";"1100";"Reais";"1062";"Reais";"1116";"Reais";"1320";"Reais";"1341";"Reais";"1427";"Reais"
+"UF";"23";"Ceará";"1061";"Reais";"1167";"Reais";"1213";"Reais";"1280";"Reais";"1092";"Reais";"1166";"Reais";"1220";"Reais";"1247";"Reais"
+"UF";"24";"Rio Grande do Norte";"1291";"Reais";"1199";"Reais";"1259";"Reais";"1425";"Reais";"1240";"Reais";"1359";"Reais";"1469";"Reais";"1542";"Reais"
+"UF";"25";"Paraíba";"1151";"Reais";"1250";"Reais";"1215";"Reais";"1192";"Reais";"1047";"Reais";"1207";"Reais";"1356";"Reais";"1409";"Reais"
+"UF";"26";"Pernambuco";"1155";"Reais";"1173";"Reais";"1184";"Reais";"1215";"Reais";"1007";"Reais";"1207";"Reais";"1207";"Reais";"1448";"Reais"
+"UF";"27";"Alagoas";"930";"Reais";"898";"Reais";"975";"Reais";"921";"Reais";"1001";"Reais";"1102";"Reais";"1140";"Reais";"1303";"Reais"
+"UF";"28";"Sergipe";"1213";"Reais";"1157";"Reais";"1199";"Reais";"1237";"Reais";"1200";"Reais";"1281";"Reais";"1270";"Reais";"1480";"Reais"
+"UF";"29";"Bahia";"1102";"Reais";"1200";"Reais";"1195";"Reais";"1178";"Reais";"1055";"Reais";"1159";"Reais";"1246";"Reais";"1340";"Reais"
+"UF";"31";"Minas Gerais";"1646";"Reais";"1745";"Reais";"1734";"Reais";"1779";"Reais";"1658";"Reais";"1816";"Reais";"1935";"Reais";"2001";"Reais"
+"UF";"32";"Espírito Santo";"1645";"Reais";"1677";"Reais";"1753";"Reais";"1822";"Reais";"1725";"Reais";"1890";"Reais";"1928";"Reais";"2071";"Reais"
+"UF";"33";"Rio de Janeiro";"1911";"Reais";"1981";"Reais";"2153";"Reais";"2322";"Reais";"2096";"Reais";"2293";"Reais";"2348";"Reais";"2399";"Reais"
+"UF";"35";"São Paulo";"2392";"Reais";"2399";"Reais";"2496";"Reais";"2511";"Reais";"2172";"Reais";"2453";"Reais";"2592";"Reais";"2719";"Reais"
+"UF";"41";"Paraná";"1997";"Reais";"2052";"Reais";"2112";"Reais";"2137";"Reais";"1914";"Reais";"2082";"Reais";"2150";"Reais";"2391";"Reais"
+"UF";"42";"Santa Catarina";"2033";"Reais";"2207";"Reais";"2189";"Reais";"2243";"Reais";"2074";"Reais";"2279";"Reais";"2369";"Reais";"2535";"Reais"
+"UF";"43";"Rio Grande do Sul";"2160";"Reais";"2218";"Reais";"2208";"Reais";"2300";"Reais";"2085";"Reais";"2385";"Reais";"2427";"Reais";"2589";"Reais"
+"UF";"50";"Mato Grosso do Sul";"1876";"Reais";"1899";"Reais";"1969";"Reais";"1984";"Reais";"1773";"Reais";"2226";"Reais";"2192";"Reais";"2160";"Reais"
+"UF";"51";"Mato Grosso";"1621";"Reais";"1725";"Reais";"1848";"Reais";"1831";"Reais";"1668";"Reais";"2018";"Reais";"2100";"Reais";"2246";"Reais"
+"UF";"52";"Goiás";"1611";"Reais";"1781";"Reais";"1735";"Reais";"1715";"Reais";"1629";"Reais";"1913";"Reais";"2080";"Reais";"2127";"Reais"
+"UF";"53";"Distrito Federal";"3223";"Reais";"3332";"Reais";"3471";"Reais";"3314";"Reais";"2985";"Reais";"3649";"Reais";"3444";"Reais";"3531";"Reais"
+"Fonte: IBGE - Pesquisa Nacional por Amostra de Domicílios Contínua Anual - 4º trimestre"
+
+"Notas"
+"O rendimento real é obtido conforme deflacionamento especificado nas Notas Técnicas da PNAD Contínua.
+Exclusive as pessoas cuja condição no domicílio era ""Pensionista"", ""Empregado doméstico"" ou ""Parente de empregado doméstico"".
+O rendimento de trabalho é captado somente para pessoas de 14 anos ou mais de idade.
+A partir de 30 de novembro de 2021, as estimativas deste tema passaram a ser divulgadas com base no novo método de ponderação da pesquisa, conforme a Nota Técnica 03/2021. Consequentemente, a série histórica dos indicadores foi atualizada."
+""
+"Legenda"
+"Símbolo";"Significado"
+"-";"Zero absoluto, não resultante de um cálculo ou arredondamento.
+Ex: Em determinado município não existem pessoas de 14 anos de idade sem instrução."
+"0";"Zero resultante de um cálculo ou arredondamento.
+Ex: A inflação do feijão em determinada Região Metropolitana foi 0.
+Determinado município produziu 400 kg de sementes de girassol e os dados da tabela são expressos em toneladas."
+"X";"Valor inibido para não identificar o informante.
+Ex: Determinado município só possui uma empresa produtora de cimento, logo o valor de sua produção deve ser inibido."
+"..";"Valor não se aplica.
+Ex: Não se pode obter o total da produção agrícola em determinado município quando os produtos agrícolas são contabilizados com unidades de medida distintas."
+"...";"Valor não disponível.
+Ex: A produção de feijão em determinado município não foi pesquisada ou determinado município não existia no ano da pesquisa."
+"A a Z
+(exceto X)";"Significa uma faixa de valores. Varia em função da tabela (se for o caso).
+Ex: O nível de precisão da produção estimada de combustíveis está na faixa A (95 a 100%)"

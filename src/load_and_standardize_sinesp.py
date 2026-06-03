@@ -18,6 +18,9 @@ DESCOBERTAS SOBRE OS DADOS (resultado da inspecao -- nao remover este bloco):
 DISPONIBILIDADE DOS CRIMES:
   - 'Estupro de vulneravel'  -> DISPONIVEL em todos os anos 2016-2026 -> mapeado para estupro_vulneravel
   - 'Estupro'                -> DISPONIVEL em todos os anos 2016-2026 -> mapeado para estupro (contexto)
+  - 'feminino'/'masculino' -> DISPONIVEL como campos de desagregacao de genero.
+    Cobertura cresce de ~60% (2016) a ~96% (2025). Linhas sem cobertura sao atribuidas
+    a 'nao_informado'. A soma feminino+masculino+nao_informado sempre iguala total_vitima.
   - 'Sequestro'              -> NAO DISPONIVEL no SINESP -- nao consta neste dataset
   - 'Exploracao infantil'    -> NAO DISPONIVEL no SINESP -- nao consta neste dataset
 
@@ -46,7 +49,8 @@ OUTPUT_FILE = PROCESSED_DIR / "sinesp_crimes.csv"
 ABRANGENCIA_KEEP = "Estadual"
 
 # Colunas necessarias da fonte -- carregar apenas estas evita ler 9 colunas desnecessarias
-USECOLS = ["uf", "evento", "data_referencia", "total_vitima", "abrangencia"]
+USECOLS = ["uf", "evento", "data_referencia", "total_vitima", "abrangencia",
+           "feminino", "masculino", "nao_informado"]
 
 # Mapeia o nome normalizado (minusculo, sem acentos) do evento para o nome canonico da coluna.
 # A ordem importa: padroes mais especificos devem vir antes dos mais abrangentes.
@@ -102,9 +106,11 @@ def load_single_file(path: Path) -> pd.DataFrame:
     df["total_vitima"] = pd.to_numeric(df["total_vitima"], errors="coerce").fillna(0).astype(int)
 
     kept_rows = len(df)
+    for gcol in ["feminino", "masculino", "nao_informado"]:
+        df[gcol] = pd.to_numeric(df[gcol], errors="coerce")
     print(f"{original_rows:,} linhas -> {kept_rows:,} apos filtro de abrangencia", flush=True)
 
-    return df[["uf", "ano", "evento", "total_vitima"]]
+    return df[["uf", "ano", "evento", "total_vitima", "feminino", "masculino", "nao_informado"]]
 
 
 def classify_crimes(df: pd.DataFrame) -> pd.DataFrame:
@@ -134,23 +140,56 @@ def aggregate_annual(df: pd.DataFrame) -> pd.DataFrame:
     """
     Agrega contagens mensais por municipio em totais anuais por UF.
     Pivota o resultado para que cada tipo de crime seja uma coluna separada.
+    Inclui desagregacao por genero: feminino, masculino, nao_informado.
+
+    Derivacao de nao_informado: para linhas onde feminino/masculino sao nulos
+    (registro sem desagregacao de genero), total_vitima e atribuido inteiramente
+    a nao_informado, garantindo que a soma dos tres campos sempre iguale total.
     """
-    annual = (
-        df.groupby(["uf", "ano", "crime"])["total_vitima"]
-        .sum()
+    df = df.copy()
+
+    # Coerce gender columns; rows with null gender go entirely to nao_informado
+    df["feminino"]  = pd.to_numeric(df["feminino"],  errors="coerce").fillna(0)
+    df["masculino"] = pd.to_numeric(df["masculino"], errors="coerce").fillna(0)
+    # nao_informado derived so that feminino + masculino + nao_informado == total_vitima always
+    df["_nao_informado"] = df["total_vitima"] - df["feminino"] - df["masculino"]
+
+    agg = (
+        df.groupby(["uf", "ano", "crime"])
+        .agg(
+            total=("total_vitima",    "sum"),
+            fem=  ("feminino",        "sum"),
+            masc= ("masculino",       "sum"),
+            nao=  ("_nao_informado",  "sum"),
+        )
         .reset_index()
     )
 
-    pivoted = annual.pivot_table(
-        index=["uf", "ano"],
-        columns="crime",
-        values="total_vitima",
-        aggfunc="sum",
-        fill_value=0,
-    ).reset_index()
+    def _pivot(value_col: str) -> pd.DataFrame:
+        piv = agg.pivot_table(
+            index=["uf", "ano"],
+            columns="crime",
+            values=value_col,
+            aggfunc="sum",
+            fill_value=0,
+        ).reset_index()
+        piv.columns.name = None
+        return piv
 
-    pivoted.columns.name = None  # remove o nome do MultiIndex gerado pelo pivot
-    return pivoted
+    # Main crime count pivot
+    result = _pivot("total")
+
+    # Gender pivots — rename columns before merging
+    for gcol, suffix in [("fem", "feminino"), ("masc", "masculino"), ("nao", "nao_informado")]:
+        piv = _pivot(gcol)
+        rename_map = {}
+        for crime in ["estupro", "estupro_vulneravel"]:
+            if crime in piv.columns:
+                rename_map[crime] = f"{crime}_{suffix}"
+        piv = piv.rename(columns=rename_map)
+        result = result.merge(piv, on=["uf", "ano"])
+
+    return result
 
 
 def validate_output(df: pd.DataFrame) -> None:
@@ -166,6 +205,8 @@ def validate_output(df: pd.DataFrame) -> None:
     print(f"    Anos presentes : {sorted(df['ano'].unique())}", flush=True)
     print(f"    Dimensoes      : {df.shape}", flush=True)
     print(f"    Colunas        : {list(df.columns)}", flush=True)
+    gender_cols = [c for c in df.columns if any(c.endswith(s) for s in ("_feminino", "_masculino", "_nao_informado"))]
+    print(f"    Colunas de genero  : {gender_cols}", flush=True)
 
     # Alertar se alguma combinacao UF-ano parecer ausente
     expected = 27 * df["ano"].nunique()
