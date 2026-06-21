@@ -117,7 +117,7 @@ python src/merge_sinesp_inse.py
 python src/merge_sinesp_inse_populacao.py
 
 # 3. Clusterização K-Means
-# Executar o notebook: notebooks/01_eda_sinesp_crimes_vulneraveis.ipynb
+# Executar o notebook: notebooks/01_eda_crimes_vulneraveis.ipynb
 # Seção 10b — gera data/processed/sinesp_inse_pop_clusters.csv
 
 # 4. Dataset mestre e modelo Power BI
@@ -137,6 +137,10 @@ python src/generate_powerbi_model.py
 | `data/processed/ibge_gini.csv` | Índice de Gini por UF/ano | 270 |
 | `data/processed/ibge_area.csv` | Área territorial km² por UF (estático) | 27 |
 | `data/processed/powerbi_dataset.csv` | Dataset mestre consolidado | 297 |
+| `data/processed/sinesp_inse_inner_join.csv` | SINESP × INSE (inner join) | 54 |
+| `data/processed/sinesp_inse_left_join.csv` | SINESP × INSE (left join) | 297 |
+| `data/processed/sinesp_inse_pop_inner_join.csv` | SINESP × INSE × Pop (inner join) | 54 |
+| `data/processed/sinesp_inse_pop_left_join.csv` | SINESP × INSE × Pop (left join) | 297 |
 | `data/processed/sinesp_inse_pop_clusters.csv` | Dataset com K-Means (2019 e 2021) | 54 |
 
 ---
@@ -255,7 +259,7 @@ Dados_Crimes/
 │   ├── processed/           # CSVs padronizados e mergeados
 │   └── powerbi/             # CSVs prontos para importação no Power BI
 ├── notebooks/
-│   └── 01_eda_sinesp_crimes_vulneraveis.ipynb
+│   └── 01_eda_crimes_vulneraveis.ipynb
 ├── reports/
 │   └── relatorio_final.md
 ├── src/
@@ -280,7 +284,7 @@ Dados_Crimes/
 
 - Dataset tratado e consolidado (`data/processed/powerbi_dataset.csv`)
 - Modelo de dados Power BI (`data/powerbi/`)
-- Notebook analítico (`notebooks/01_eda_sinesp_crimes_vulneraveis.ipynb`)
+- Notebook analítico (`notebooks/01_eda_crimes_vulneraveis.ipynb`)
 - Relatório final (`reports/relatorio_final.md`)
 - Dashboard interativo no Power BI
 
